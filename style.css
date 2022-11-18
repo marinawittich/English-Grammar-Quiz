@@ -1,0 +1,95 @@
+body{
+    background-image: url('https://images.unsplash.com/photo-1543751416-705d3e34d02a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1742&q=80');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.container{
+    margin-top: 80px;
+    margin-bottom: 80px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(211, 188, 200, 0.897);
+    border: 1px solid black;
+    width: 40%;
+    padding: 40px;
+}
+.header{
+    display:flex;
+    justify-content: center;
+}
+
+.mainContainer{
+    display: flex;
+    justify-content: center;
+
+}
+
+.question1, .question2, .question3, .question4, .question5, .question6, .question7, .question8, .question9, .question10{
+    margin-top: 40px;
+    padding: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+}
+label{
+    font-weight: bolder;
+    font-size: 20px;
+    border-bottom: 1px solid black;
+    margin-bottom: 5px;
+    
+}
+.input{
+    margin-top: 10px;
+}
+.btnContainer{
+    display: flex;
+    justify-content: center;
+}
+.btn{
+    padding: 10px;
+    font-size: 18px;
+    font-family: 'Raleway', sans-serif;
+    width: 50%;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: #aa4c4c;
+    margin-bottom: 40px;
+}
+.correct1, .correct2, .correct3, .correct4, .correct5, .correct6, .correct7, .correct8, .correct9, .correct10{
+    display: none;
+    font-size: 17px;
+    color:#aa4c4c;
+}
+.show{
+    margin-top: 40px;
+    margin: auto;
+    color:#8b2323;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.color{
+    color: #aa4c4c;;
+}
+
+
+@media all and (max-width: 800px){
+    .container{
+        width: 60%;   
+}
+}
+@media all and (max-width: 500px){
+    
+        .container{
+            width: 80%; 
+            padding: 10px;
+        } 
+        .question1, .question2, .question3, .question4, .question5, .question6, .question7, .question8, .question9, .question10{
+            margin-top: 20px;
+            padding: 5px;
+            
+        }  
+}
+
+
